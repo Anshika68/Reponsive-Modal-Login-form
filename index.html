@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <h2>Modal Login Form</h2>
+    <button style="width:auto;" onclick="document.getElementById('id01')style.display='block'" >Login</button>
+    
+    <div id="id01" class="modal">
+      <form class="modal-content animate">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01')style.display='none'" class="close">x</span>
+          <img src="Jellyfish.jpg" alt="Avatar" class="Avatar" width="400px">
+        </div>
+        
+        
+        <div class="container">
+          <label for="Uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username"
+                 name="Uname" required>
+          
+          <label for="Pname"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password"
+                 name="Pname" required>
+          
+          <button type="submit">Log In</button>
+          
+          <input type="checkbox" checked="checked">
+          Remember Me
+        </div>
+        
+        <div class="container" style="background-color:lightgreen">
+          <button type="button" class="cancelbutton">Cancel</button>
+          
+          <span class="gsw">Forget<a href="#">Password?</a></span>
+          
+        </div>
+        
+      </form>
+      
+    </div>
+    
+    
+    
+  </body>
+</html>
